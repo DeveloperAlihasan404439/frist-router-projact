@@ -1,0 +1,53 @@
+
+.loding{
+    border: 20px dotted green;
+    border-radius: 50%;
+    border-top: 20px dashed red;
+    border-bottom: 20px dotted rgb(233, 219, 16);
+    border-left: 20px dotted rgb(20, 16, 233);
+    border-top: 20px dotted orange;
+    width: 70px;
+    height: 70px;
+    animation: rotate 2s linear infinite;
+}
+@keyframes rotate{
+    0% { transform: rotate(0deg);
+    color: red;}
+    100% { transform: rotate(360deg);color: orange;}
+}
+.waviy{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.waviy span{
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    animation: flip 3s infinite;
+    animation-delay: calc(0.1s * var(3));
+}
+.o{
+    border: 10px dashed white;
+    width: 20px;
+    height: 25px;
+    border-radius: 50%;
+    animation: rotate 2s linear infinite;
+
+}
+@keyframes flip {
+    0%,100%{
+        transform: rotateX(0deg) scale(1);
+        color: orange;
+    }
+    50%{
+        transform: rotateY(360deg);
+        color: red;
+    }
+    25%{
+        transform: rotateX(360deg);
+        color: rgb(72, 255, 0);
+    }
+    75%{
+        transform: rotateY(360deg);
+        color: rgb(0, 47, 255);
+    }
+}
