@@ -57,7 +57,7 @@ const Details = () => {
         <h1 className="text-xl font-normal">Rating : {rating}</h1>
         <h1 className="text-xl font-normal">Stock : {stock}</h1>
         </div>
-        <Link to='/' className='w-full text-2xl font-semibold text-white rounded-lg bg-gradient-to-r from-[#5756FD] to-[#D040F5] hover:bg-gradient-to-l hover:from-[#1313fa] hover:to-[#ce26f8] px-20 py-2 '>Go To Home Pages</Link>
+        <Link to='/' className='w-full text-xl md:text-2xl font-semibold text-white rounded-lg bg-gradient-to-r from-[#5756FD] to-[#D040F5] hover:bg-gradient-to-l hover:from-[#1313fa] hover:to-[#ce26f8] px-7 md:px-20 py-2 '>Go To Home Pages</Link>
         </div>
     </div>
   );
